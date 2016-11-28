@@ -1,0 +1,50 @@
+html{background: #f8f3f7;}
+
+/*加载页面*/
+#box1{margin:1.54rem auto;width: 100%;}
+#box1>img{width:2.58rem;margin:0 auto;display: block;}
+#box1>p{font-size: 0.35rem;line-height:2rem;text-align: center;}
+#box2{width:100%;height:1.12rem;background: url(../img/bot.jpg) center/cover;
+       position: fixed;bottom: 0;}
+
+/*ladding*/
+.laddings{width:100%;height:9.2rem;}
+@-webkit-keyframes laddings{
+	0%{background:url(../img/3.jpg) no-repeat center/cover ;}
+	25%{background:url(../img/4.jpg) no-repeat center/cover ;}
+	50%{background:url(../img/5.jpg) no-repeat center/cover ;}
+	75%{background:url(../img/6.jpg) no-repeat center/cover ;}
+	100%{background:url(../img/3.jpg) no-repeat center/cover ;}
+}
+.laddings{animation: laddings 4s infinite;}
+
+/*fonts区域*/
+@font-face {font-family: "fonts1";
+    src: url('../fonts1/iconfont.eot');
+    src: url('../fonts1/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts1/iconfont.woff') format('woff'),
+    url('../fonts1/iconfont.ttf') format('truetype'),
+    url('../fonts1/iconfont.svg#iconfontyyy') format('svg');
+    url('../fonts1/del.svg') format('svg');
+}
+
+/*header区域*/
+ header{width:100%;height:0.86rem;background: #e4366b;
+       font-size: 0.38rem;text-align: center;line-height: 0.86rem;
+       position: absolute;top:0;color:#fff;}
+
+/*footer区域*/
+footer{width:100%;height:0.93rem;background:#484850;position: fixed;bottom:0;
+      justify-content: space-around;text-align: center;}
+footer>div{width:20%;float:left;color: #fff;}
+div>span{font-family:"fonts1" !important;
+    font-size:0.53rem;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+.pic1>p{font-weight: 900;}
+.pic2>p{font-weight: 900;}
+.pic3>p{font-weight: 900;}
+.pic4>p{font-weight: 900;}
+.pic5>p{font-weight: 900;}
+footer a{color:#fff;font-size: 0.26rem;}

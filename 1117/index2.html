@@ -1,0 +1,500 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+
+*{margin:0;padding:0;}
+
+
+.ig{width:33%;height:380px;overflow:hidden;position:relative;float:left;}
+
+.ig img{transition:all .5s;}
+
+
+.ig:hover img{transform:translate(-5px);opacity:.5;}
+
+.ig h2{transition:all .5s;color:#FFF;position:absolute;left:30px;bottom:60px;}
+
+.ig:hover h2{transform:translateY(-10px);}
+
+.ig p{transition:all .5s;position:absolute;left:30px;bottom:40px;color:#FFF;}
+.ig:hover p{transform:translateY(-10px)}
+
+
+
+
+
+.we{width:33%;height:380px;overflow:hidden;position:relative;float:left;}
+
+.we img{transition:all .5s;}
+
+
+.we:hover img{transform:translate(-5px);opacity:.5;}
+
+.we h2{transition:all .5s;color:#FFF;position:absolute;left:40px;bottom:240px;}
+
+.we:hover h2{transform:translateY(-10px)}
+
+.we p:nth-of-type(1){transition:all .5s;color:#FFF;position:absolute;left:-200px;bottom:200px;}
+.we:hover p:nth-of-type(1){transform:translateX(240px);}
+
+.we p:nth-of-type(2){transition:all .5s;color:#FFF;position:absolute;left:-200px;bottom:180px}
+.we:hover p:nth-of-type(2){transform:translateX(240px);transition-delay:.5s;}
+.we p:nth-of-type(3){transition:all .5s;color:#FFF;position:absolute;left:-200px;bottom:140px}
+.we:hover p:nth-of-type(3){transform:translateX(240px);transition-delay:1s;}
+
+
+
+
+
+.hz{width:33%;height:380px;overflow:hidden;position:relative;float:left;}
+
+.hz img{transition:all .5s;}
+
+
+.hz:hover img{transform:translate(-5px);opacity:.5;}
+
+.hz h2{transition:all .5s;color:#FFF;position:absolute;left:30px;bottom:240px;}
+
+.hz:hover h2{transform:translateY(-10px)}
+
+.hz p{transition:all .5s;color:#000;position:absolute;left:30px;bottom:-40px;}
+
+.hz:hover p{transform:translateY(-50px);background:#FFF;}
+
+
+
+
+
+.rng{width:33%;height:380px;overflow:hidden;position:relative;float:left;}
+
+.rng img{transition:all .5s;}
+
+
+.rng:hover img{transform:translate(-5px);opacity:.5;}
+
+.rng h2{transition:all .5s;color:#FFF;position:absolute;left:30px;bottom:240px;}
+
+.rng:hover h2{transform:translateY(-10px)}
+
+.rng p{transition:all .5s;color:#000;position:absolute;left:200px;bottom:-40px;z-index:2;}
+.rng:hover p{transform:translateY(-50px);background:#FFF;}
+
+.rng .rng1{width:800px;height:300px;top:600px;background:#fff;position:absolute;
+left:0;z-index:1;}
+
+.rng:hover .rng1{transform:rotate(-15deg);top:300px;}
+
+
+
+
+
+
+
+
+.snaker{width:33%;height:380px;overflow:hidden;position:relative;float:left;}
+
+.snaker img{transition:all .5s;}
+
+
+.snaker:hover img{transform:translate(-5px);opacity:.5;}
+
+
+
+
+
+
+.snaker h2{transition:all .5s;color:#FFF;position:absolute;left:70px;bottom:240px;}
+
+.snaker:hover h2{transform:translateX(5px)}
+
+.snaker p{transition:all .5s;color:#000;position:absolute;left:70px;bottom:100px;z-index:2;}
+.snaker:hover p{transform:translateY(-15px);background:#FFF;}
+
+
+
+.snaker .snaker1{width:283px;height:300px;border:1px solid #000;position:absolute;left:360px;top:320px; transition:1s;z-index:10;}
+
+.snaker:hover .snaker1{transform:translateX(-300px) translateY(-300px) rotate(360deg);}
+
+
+
+
+
+
+.im{width:33%;height:380px;overflow:hidden;position:relative;float:left;}
+
+.im img{transition:all .5s;}
+
+
+.im:hover img{transform:translate(-5px);opacity:.5;}
+
+.im h2{transition:all 1s;color:#FFF;position:absolute;left:-240px;bottom:240px;transform:skew(120deg);font-size:36px;}
+
+.im:hover h2{transform:translateX(300px)}
+
+.im p{transition:all 1s;color:#FFF;position:absolute;left:-280px;bottom:160px; transform:skew(120deg);font-size:24px;}
+.im:hover p{transform:translateX(290px);}
+
+
+
+
+.snaker{width:33%;height:380px;overflow:hidden;position:relative;float:left;}
+
+.snaker img{transition:all .5s;}
+
+
+.snaker:hover img{transform:translate(-5px);opacity:.5;}
+
+
+
+
+
+
+
+
+
+
+.edg{width:33%;height:380px;overflow:hidden;position:relative;float:left;}
+
+.edg img{transition:all .5s;}
+
+
+.edg:hover img{transform:translate(-5px);opacity:.5;}
+
+
+.edg h2{transition:all .5s;color:#FFF;position:absolute;left:120px;bottom:240px;font-size:10px;transform:scale(2);}
+
+.edg:hover h2{ transform:scale(1);}
+
+.edg p{transition:all .5s;color:#000;position:absolute;left:120px;bottom:100px;font-size:12px;transform:scale(2);}
+.edg:hover p{transform:scale(1);}
+
+
+
+.edg .edg1{width:200px;height:300px;border:1px solid #000;position:absolute;left:60px;top:60px; transition:1s;transform:scale(1.1);}
+
+.edg:hover .edg1{transform:scale(1);}
+
+
+
+
+
+
+.lgd{width:33%;height:380px;overflow:hidden;position:relative;float:left;}
+
+.lgd img{transition:all .5s;}
+
+
+.lgd:hover img{transform:translate(-5px);opacity:.5;}
+
+
+.lgd h2{transition:all .5s;color:#FFF;position:absolute;left:40px;bottom:240px;;}
+
+.lgd:hover h2{ transform:translateX(20px);}
+
+.lgd p{transition:all .5s;color:#FFF;position:absolute;left:40px;bottom:500px;}
+.lgd:hover p{ transform:translateY(300px);}
+
+
+.lgd .lgd1{width:320px;height:300px;border:1px solid #C00;position:absolute;left:20px;top:50px;border-left:0;border-right:0;transform:scale(0);}
+.lgd .lgd2{width:290px;height:320px;border:1px solid #C00;position:absolute;left:20px;top:40px;margin-left:10px;margin-bottom:150px;border-top:0;border-bottom:0;transform:scale(0)}
+.lgd:hover .lgd1{ transform:scale(1)}
+
+.lgd:hover .lgd2{ transform:scale(1)}
+
+
+
+
+
+
+
+
+.skt{width:33%;height:380px;overflow:hidden;position:relative;float:left;}
+
+.skt img{transition:all .5s;}
+
+
+.skt:hover img{transform:translate(-5px);opacity:3;}
+
+.skt h2{transition:all .5s;color:#FFF;position:absolute;left:30px;bottom:240px;}
+
+.skt:hover h2{transform:translateY(-10px)}
+
+.skt p{transition:all .5s;color:#000;position:absolute;left:200px;bottom:-40px;z-index:2;}
+.skt:hover p{transform:translateY(-50px);background:#FFF;}
+
+.skt .skt1{width:800px;height:300px;top:600px;background:#fff;position:absolute;
+left:0;z-index:1;}
+
+.skt:hover .skt1{transform:rotate(-10deg);top:100px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<figure class="ig">
+
+  <img src="img/pic1.jpg"/>
+  
+  <figcaption>
+  
+  <h2>激情英雄联盟Faker大魔王</h2>
+  <p>速度与激情速度与激情</p>
+  
+  
+  </figcaption>
+  
+ 
+
+
+
+
+
+
+
+</figure>
+
+
+
+<figure class="we">
+
+  <img src="img/pic2.jpg"/>
+  
+  <figcaption>
+  
+  <h2>平面动画2</h2>
+  
+  <p>大魔王到魔王大魔王</p>
+  <p>大鲨鱼大鲨鱼</p>
+ 
+   <p>速度机器</p>
+  
+  
+  </figcaption>
+  
+ 
+
+
+
+
+
+
+
+</figure>
+
+
+
+
+
+
+
+
+
+
+
+
+<figure class="hz">
+
+  <img src="img/pic3.jpg"/>
+  
+  <figcaption>
+  
+  
+  <h2>平面动画3</h2>
+  <p>LOL世界第一中单是大魔王faker吗?国内有和他...大魔王faker的最新相关信息</p>
+  
+
+  
+  </figcaption>
+  
+ </figure>
+ 
+ 
+ 
+ 
+ 
+ 
+ <figure class="rng">
+
+  <img src="img/pic4.jpg"/>
+  
+  <figcaption>
+  
+  <h2>平面动画4</h2>
+  <p>大魔王Faker直播吸血鬼</p>
+  
+  <div class="rng1">
+  
+  
+  
+  
+  </div>
+  
+
+  
+  </figcaption>
+  
+ </figure>
+
+
+
+
+
+
+
+<figure class="snaker">
+
+  <img src="img/pic5.jpg"/>
+  
+  <figcaption>
+  
+  <div class="snaker1">
+  
+ 
+  
+  </div>
+  
+  
+   <h2>faker第一视角faker直播</h2>
+  <p>英雄联盟世界第一中单FAKER</p>
+  </figcaption>
+  
+ </figure>
+
+
+
+
+<figure class="im">
+
+  <img src="img/pic6.jpg"/>
+  
+  <figcaption>
+  
+  <h2>大魔王劫反杀</h2>
+  
+  <p>为什么叫大魔王</p>
+ 
+  
+  </figcaption>
+  
+ 
+
+
+
+
+
+
+
+</figure>
+
+
+
+
+
+
+
+<figure class="edg">
+
+  <img src="img/pic7.jpg"/>
+  
+  <figcaption>
+  
+  <div class="edg1">
+  
+ 
+  
+  </div>
+  
+  
+   <h2>faker第一视角faker直播</h2>
+  <p>英雄联盟世界第一中单</p>
+  </figcaption>
+  
+ </figure>
+
+
+
+
+
+
+
+
+
+<figure class="lgd">
+
+  <img src="img/pic8.jpg"/>
+  
+  <figcaption>
+  
+  <div class="lgd1"></div>
+    <div class="lgd2"></div>
+  
+  
+  
+   <h2>faker第一视角faker直播</h2>
+  <p>英雄联盟世界第一中单</p>
+  </figcaption>
+  
+ </figure>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <figure class="skt">
+
+  <img src="img/pic9.jpg"/>
+  
+  <figcaption>
+  
+  <h2>大魔王faker身价</h2>
+  <p>大魔王Faker直播吸血鬼</p>
+  
+  <div class="skt1">
+ 
+ <img src="img/img5.jpg"/>
+  
+  
+  
+  </div>
+  
+
+  
+  </figcaption>
+  
+ </figure>
+
+
+
+
+
+
+
+
+</body>
+</html>
